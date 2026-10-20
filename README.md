@@ -1,10 +1,12 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img src="assets/banner-light.svg" alt="Keith-hq — engineering-oriented AI researcher and full-stack developer" width="100%">
+  <img src="assets/banner-light.svg" alt="Keith-hq — undergraduate in software engineering at Tongji University, engineering-oriented AI researcher and full-stack developer" width="100%">
 </picture>
 
-Engineering-oriented AI researcher / full-stack developer. I build agent systems, LLM application layers, and low-level systems software — and try to make each one a running, inspectable artifact rather than a slide.
+Undergraduate in Software Engineering at Tongji University, working as an engineering-oriented AI researcher and full-stack developer. I build agent systems, LLM application layers, and low-level systems software — and try to make each one a running, inspectable artifact rather than a slide.
+
+`Tongji University` · `B.Eng. Software Engineering` · `undergraduate`
 
 <img src="assets/divider.svg" width="100%" alt="">
 
@@ -171,5 +173,5 @@ Planned directions, stated as plans rather than results:
 <br>
 
 <div align="center">
-<sub>5 public repositories · every claim above is derived from repository metadata and READMEs · updated 2026-10-20</sub>
+<sub>5 public repositories · every claim above is derived from repository metadata and READMEs · updated 2026-10-21</sub>
 </div>
