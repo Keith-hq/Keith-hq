@@ -1,13 +1,12 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img src="assets/banner-light.svg" alt="Keith-hq — engineering-oriented AI researcher and full-stack developer" width="100%">
+</picture>
 
-# Keith-hq
+Engineering-oriented AI researcher / full-stack developer. I build agent systems, LLM application layers, and low-level systems software — and try to make each one a running, inspectable artifact rather than a slide.
 
-Engineering-oriented AI researcher / full-stack developer.
-I build agent systems, LLM application layers, and low-level systems software — and try to make each one a running, inspectable artifact rather than a slide.
-
-</div>
-
----
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## Focus
 
@@ -20,25 +19,50 @@ I build agent systems, LLM application layers, and low-level systems software �
 
 **Stated but not yet published:** inference-engine work (vLLM / SGLang), accelerator operators, edge-AI and medical-robot closed loops. No repository exists for these. Nothing on this page should be read as a claim that one does.
 
----
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## Toolchain
 
 **Large Language Model & Agent**
-`Python` · `FastAPI` · `OpenAI-compatible chat/completions` · `SiliconFlow image generation` · `prompt-assembly pipelines` · `agent planning / tool registry / guardrails` · `BYOK key routing`
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Uvicorn](https://img.shields.io/badge/Uvicorn-2C3E50?style=flat-square)
+![OpenAI API](https://img.shields.io/badge/OpenAI%20API-412991?style=flat-square&logo=openai&logoColor=white)
+![SiliconFlow](https://img.shields.io/badge/SiliconFlow-F59E0B?style=flat-square)
 
 **Inference & Acceleration**
-`C` · `RISC-V assembly` · `QEMU` · `page tables & copy-on-write` · `spinlock / buffer-cache contention` · `virtual-disk block allocation`
-_No inference-engine or kernel-operator repository published yet. The systems work above is the current base._
+
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![RISC-V](https://img.shields.io/badge/RISC--V-283272?style=flat-square&logo=riscv&logoColor=white)
+![QEMU](https://img.shields.io/badge/QEMU-FF6600?style=flat-square)
+
+_Page tables & copy-on-write · spinlock / buffer-cache contention · virtual-disk block allocation. No inference-engine or kernel-operator repository published yet — this is the current base._
 
 **Full-Stack Development**
-`TypeScript` · `React 18` · `Vue 3` · `Vite` · `Pinia` · `C# / ASP.NET Core .NET 8` · `EF Core` · `Quartz.NET` · `Oracle 21c` · `Docker Compose` · `Nginx` · `GitHub Actions` · `PyQt6`
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React%2018-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vue 3](https://img.shields.io/badge/Vue%203-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Pinia](https://img.shields.io/badge/Pinia-FFD859?style=flat-square&logo=pinia&logoColor=black)
+![.NET 8](https://img.shields.io/badge/.NET%208-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![EF Core](https://img.shields.io/badge/EF%20Core-68217A?style=flat-square&logo=dotnet&logoColor=white)
+![Oracle 21c](https://img.shields.io/badge/Oracle%2021c-F80000?style=flat-square&logo=oracle&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 **HCI / Edge & Hardware AI**
-`interactive web prototypes` · `Leaflet map + timeline interfaces` · `in-browser card export (PNG / QR)` · `single-file offline builds`
+
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![PyQt6](https://img.shields.io/badge/PyQt6-41CD52?style=flat-square)
+
 _Edge-device and hardware-in-the-loop work is planned, not published._
 
----
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## Selected Projects
 
@@ -86,7 +110,7 @@ All 10 MIT 6.S081 (2021) labs on the RISC-V xv6 teaching kernel, one branch per 
 - **Tech:** C · RISC-V assembly · QEMU · xv6 kernel tree.
 - **Status:** complete; each branch ships its own `grade-lab-*` script.
 
----
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## Design Stance
 
@@ -105,7 +129,7 @@ flowchart LR
     H -->|rejected| A
 ```
 
----
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## GitHub Stats
 
@@ -115,7 +139,7 @@ flowchart LR
 
 </div>
 
----
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## Research / Study Updates
 
@@ -132,15 +156,19 @@ Planned directions, stated as plans rather than results:
 - Inference-engine and accelerator-operator experiments (vLLM, SGLang, domestic AI accelerators) — will be published as repositories when there is code.
 - Edge-AI / medical-robot closed-loop prototype — concept stage.
 
----
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## Contact
 
-- [All repositories](https://github.com/Keith-hq?tab=repositories) — the `?tab=repositories` view is the authoritative list; this page mirrors it.
-- Issues on any repository above are the intended channel, and they are read.
+[![Email](https://img.shields.io/badge/2451914%40tongji.edu.cn-0284c7?style=flat-square)](mailto:2451914@tongji.edu.cn)
+[![GitHub](https://img.shields.io/badge/Keith--hq-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Keith-hq?tab=repositories)
+
+- `2451914@tongji.edu.cn` — direct mail, preferred for research or collaboration.
+- [All repositories](https://github.com/Keith-hq?tab=repositories) — the authoritative list; this page mirrors it.
+- Issues on any repository above are also read.
 - `dormitory-service-platform` and `Jade_realm` both carry full local-run instructions. Reproduction beats questions for those two.
 
----
+<br>
 
 <div align="center">
 <sub>5 public repositories · every claim above is derived from repository metadata and READMEs · updated 2026-10-20</sub>
