@@ -6,7 +6,9 @@
 
 Undergraduate in Software Engineering at Tongji University, working as an engineering-oriented AI researcher and full-stack developer. I build agent systems, LLM application layers, and low-level systems software — and try to make each one a running, inspectable artifact rather than a slide.
 
-`Tongji University` · `B.Eng. Software Engineering` · `undergraduate`
+[![Tongji University](https://img.shields.io/badge/TONGJI%20UNIVERSITY-0284c7?style=for-the-badge)](https://www.tongji.edu.cn)
+![Software Engineering](https://img.shields.io/badge/SOFTWARE%20ENGINEERING-7c3aed?style=for-the-badge)
+![Undergraduate](https://img.shields.io/badge/UNDERGRADUATE-334155?style=for-the-badge)
 
 <img src="assets/divider.svg" width="100%" alt="">
 
