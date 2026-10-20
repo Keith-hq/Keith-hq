@@ -1,14 +1,14 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img src="assets/banner-light.svg" alt="Keith-hq — undergraduate in software engineering at Tongji University, engineering-oriented AI researcher and full-stack developer" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg?v=2">
+  <img src="assets/banner-light.svg?v=2" alt="Keith-hq — 同济大学软件工程本科生，工程向 AI 研究与全栈开发" width="100%">
 </picture>
 
 Undergraduate in Software Engineering at Tongji University, working as an engineering-oriented AI researcher and full-stack developer. I build agent systems, LLM application layers, and low-level systems software — and try to make each one a running, inspectable artifact rather than a slide.
 
-[![Tongji University](https://img.shields.io/badge/TONGJI%20UNIVERSITY-0284c7?style=for-the-badge)](https://www.tongji.edu.cn)
-![Software Engineering](https://img.shields.io/badge/SOFTWARE%20ENGINEERING-7c3aed?style=for-the-badge)
-![Undergraduate](https://img.shields.io/badge/UNDERGRADUATE-334155?style=for-the-badge)
+[![Tongji University](https://img.shields.io/badge/%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6-TONGJI%20UNIVERSITY-0284c7?style=for-the-badge&labelColor=0f172a)](https://www.tongji.edu.cn)
+![Software Engineering](https://img.shields.io/badge/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B-SOFTWARE%20ENGINEERING-7c3aed?style=for-the-badge&labelColor=0f172a)
+![Undergraduate](https://img.shields.io/badge/%E6%9C%AC%E7%A7%91%E7%94%9F-UNDERGRADUATE-475569?style=for-the-badge&labelColor=0f172a)
 
 <img src="assets/divider.svg" width="100%" alt="">
 
